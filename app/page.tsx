@@ -60,14 +60,6 @@ export default function HomePage() {
             Contato
           </a>
         </nav>
-
-        <Button
-          variant="ghost"
-          size="icon"
-          className="text-gray-300 hover:text-white"
-        >
-          <Sun className="w-5 h-5" />
-        </Button>
       </header>
 
       {/* Main Content */}
@@ -103,7 +95,7 @@ export default function HomePage() {
         <div className="flex-1 relative max-w-lg">
           <div className="relative">
             <Image
-              src="/placeholder.svg?height=400&width=600"
+              src="/GoldenTomandoBanho.png" // Caminho corrigido
               alt="Golden retriever sendo cuidado em um pet shop"
               width={600}
               height={400}
@@ -113,7 +105,7 @@ export default function HomePage() {
             {/* Small circular image overlay */}
             <div className="absolute -bottom-4 -right-4 w-20 h-20 rounded-full overflow-hidden border-4 border-slate-800 shadow-lg">
               <Image
-                src="/placeholder.svg?height=80&width=80"
+                src="/DogsLombrados.png"
                 alt="Pets felizes"
                 width={80}
                 height={80}
@@ -281,7 +273,7 @@ export default function HomePage() {
           <div className="text-center mb-8">
             <div className="w-20 h-20 rounded-full overflow-hidden mx-auto mb-4 border-4 border-yellow-200 relative">
               <Image
-                src="/placeholder.svg?height=80&width=80"
+                src="/DogsLombrados.png"
                 alt="Pet cliente feliz"
                 width={80}
                 height={80}
@@ -309,7 +301,7 @@ export default function HomePage() {
               <div className="flex items-center justify-center gap-3">
                 <div className="w-10 h-10 rounded-full overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=40&width=40"
+                    src="/PessoaSorridente01.jpg"
                     alt="Ana Silva"
                     width={40}
                     height={40}
@@ -338,7 +330,7 @@ export default function HomePage() {
               <div className="flex items-center justify-center gap-3">
                 <div className="w-10 h-10 rounded-full overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=40&width=40"
+                    src="/PessoaSorridente02.jpg"
                     alt="Carlos Santos"
                     width={40}
                     height={40}
@@ -367,7 +359,7 @@ export default function HomePage() {
               <div className="flex items-center justify-center gap-3">
                 <div className="w-10 h-10 rounded-full overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=40&width=40"
+                    src="/PessoaSorridente03.jpg"
                     alt="Maria Costa"
                     width={40}
                     height={40}
@@ -385,7 +377,7 @@ export default function HomePage() {
       </section>
 
       {/* Contact Form Section */}
-      <section className="bg-gray-50 py-16 px-6 lg:px-12">
+      <section className="bg-gray-100 py-16 px-6 lg:px-12">
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
@@ -402,7 +394,7 @@ export default function HomePage() {
                 <input
                   type="text"
                   placeholder="Nome completo"
-                  className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent"
+                  className="w-full px-4 py-3 border border-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-black text-gray-900 bg-white"
                 />
               </div>
 
@@ -410,12 +402,12 @@ export default function HomePage() {
                 <input
                   type="tel"
                   placeholder="Telefone/WhatsApp"
-                  className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent"
+                  className="w-full px-4 py-3 border border-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-black text-gray-900 bg-white"
                 />
               </div>
 
               <div>
-                <select className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent text-gray-700">
+                <select className="w-full px-4 py-3 border border-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-black text-gray-900 bg-white">
                   <option value="">Tipo de Pet</option>
                   <option value="cao">Cão</option>
                   <option value="gato">Gato</option>
@@ -427,7 +419,7 @@ export default function HomePage() {
                 <textarea
                   placeholder="Descreva o que você precisa..."
                   rows={4}
-                  className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent resize-none"
+                  className="w-full px-4 py-3 border border-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-black text-gray-900 bg-white resize-none"
                 ></textarea>
               </div>
 
